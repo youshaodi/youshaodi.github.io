@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Shaodi YOU - Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Helvetica">
+
+<style type="text/css">
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE3 {font-size: 24px}
+.STYLE4 {font-family: Arial, Helvetica, sans-serif}
+.STYLE5 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (Untitled-1.psd) -->
+<table width="840" height="80" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td width="20" background="../images/index_02.gif"><a href="index.html">	    </td>			</td>
+        <td width="20">&nbsp;</td>
+        <td width="760"><p class="STYLE3">&nbsp;</p>
+          <p align="center" class="STYLE3">Raindrop Detection and Removal from Long Range Trajectories </p>
+          <p align="center">Oral presentation in <a href="http://www.accv2014.org/">ACCV 2014</a></p>
+          <p align="center"><strong>Shaodi You</strong>, <a href="https://sites.google.com/site/tanrobby2/">Robby T. Tan</a>, <a href="http://nae-lab.org/~rei/">Rei Kawakami</a>, <a href="http://omilab.naist.jp/~mukaigawa/" target="_blank">Yasuhiro Makaigawa</a> and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+          <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="shaodi_accv14.pdf" target="_blank">pdf</a> (3.1MB)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Shaodi_accv14.mp4" target="_blank">Video demo</a> (17MB)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Shaodi_accv14.ppsx" target="_blank">Slides</a> (48MB)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Shaodi_accv14_poster.pdf" target="_blank">Poster</a> (3.1MB)
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BibTex<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig0.jpg" alt="0" width="520" height="312"></p>
+          <p align="justify"><strong>Abstract</strong>: Raindrops adhered to a windscreen or window glass can 
+            significantly degrade the visibility of a scene. Detecting and 
+            removing raindrops will, therefore, benefit many computer 
+            vision applications, particularly outdoor surveillance systems and intelligent vehicle systems. In this paper, a method 
+            that automatically detects and removes adherent raindrops 
+            is introduced. The core idea is to exploit the local spatio-temporal derivatives of raindrops. First, it detects raindrops 
+            based on the motion and the intensity temporal derivatives 
+            of the input video. Second, relying on an analysis that 
+            some areas of a raindrop completely occludes the scene, 
+            yet the remaining areas occludes only partially, the method 
+            removes the two types of areas separately. For partially occluding areas, it restores them by retrieving as much as possible information of the scene, namely, by solving a blending function on the detected partially occluding areas using 
+            the temporal intensity change. For completely occluding areas, it recovers them by using a video completion technique. 
+            Experimental results using various real videos show the ef-fectiveness of the proposed method.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig1.jpg" alt="1" width="520" height="179"></p>
+          <p align="justify"><strong>Thick and thin raindrops </strong>: Unlike some existing methods, in this work, we introduce a novel detection  method applicable for both thick and thin raindrops as well as raindrops of any size, shape, glare, and level of blurring. 
+            We call a raindrop thick when we cannot see the objects behind it, and thin, when it is sufficiently blurred, but still allows us to partially see the objects behind it. </p>
+          <p>&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig2.png" alt="2" width="713" height="141"></p>
+          <p align="justify"><strong>Raindrop imagery model </strong>: Unlike opaque objects, raindrops can look different in different environments due to the focus of the camera on the environment.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig3.png" alt="3" width="720" height="134"></p>
+          <p align="justify"><strong>Spatio-temporal space and dense trajectories</strong>:   Given a video sequence, we can form a 3<em>D</em><br>
+            spatio-temporal space.   We generate trajectories in a forward motion, from the 
+            first to the last frame. In this case occlusions by raindrops or other objects might 
+            cause some trajectories to stop, and consequently some areas in some frames 
+            will not have trajectories. To cover these areas, we also generate trajectories in
+            a backward motion.<br>
+            <br>
+          </p>
+          <p align="center"><img src="../ACCV2014/accv14-fig4.png" alt="4" width="720" height="430"></p>
+          <p align="justify"><strong>Dense trajectories on rainy scenes </strong>:   In our findings, with 
+            regard to o cclusions, a tra jectory can encounter the following events: (A) it is 
+            o ccluded by a solid non-raindrop ob ject and drifted; (B) it is o c clude d by a thick 
+            raindrop and drifted; (C) it is o ccluded by a thin raindrop and drifted; and (D) 
+            it is o cc luded by a thin raindrop but not drifted.<br>
+            <br>
+          </p>
+          <p align="left">&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig5.png" alt="CVPR2013Img_6" width="576" height="124"></p>
+          <p align="justify"><strong>Motion inconsitency </strong>:   When a point is covered by a thin raindrop, it has two correspondences in other 
+            frames: the raindrop and the covered object. The causes incorrect tracking for optical 
+            flow that assumes only one correspondence.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig6.png" alt="CVPR2013Img_7" width="576" height="422"></p>
+          <p align="justify"><strong>Appearance along trajectories, appearace inconsitency and sharpness: </strong> all four events might 
+            generate appearance changes, particularly for events A, B and C.   We calculate 
+            the appearance consistency for node<em> </em>using the difference of SIFT features. Similarly, we can evaluate the patch sharpness along the trajectory. <br>
+          </p>
+          <p align="center"> <br>
+              <img src="../ACCV2014/accv14-fig7.png" alt="CVPR2013Img_7" width="576" height="316"></p>
+          <p align="justify"><strong>Label raindrops using MRF</strong>:   The detection of raindrops can be described as a binary labeling problem, where 
+            for given a frame, the labels are raindrop and non-raindrop. Similarly, the mixture level can be described as a multiple labeling problem. The labeling can be 
+            done in the framework of Markov random fields (MRFs).<br>
+            <br>
+          </p>
+          <p align="justify">&nbsp;</p>
+          <p align="justify"><img src="../ACCV2014/accv14-fig8.png" alt="CVPR2013Img_8" width="756" height="850"></p>
+          <p align="justify"><strong>Detection Results</strong></p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="../ACCV2014/accv14-fig9.png" alt="CVPR2013Img_9" width="756" height="496"></p>
+          <p align="left"><strong>Raindrop Removal Results </strong></p>
+          <p align="justify">&nbsp;</p>
+          <p align="justify"><img src="../ACCV2014/accv14-fig10.png" alt="10" width="756" height="230"></p>
+          <p align="justify"><strong>Motion field completion results </strong></p>          <p align="center">&nbsp;</p>
+      </td>
+        <td width="20"><p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+        <td width="20" background="../images/index_07.gif">&nbsp;</td>
+  <>	</tr>
+	
+	<tr>
+		<td colspan="7">
+			<img src="../images/index_11.gif" width="840" height="59" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

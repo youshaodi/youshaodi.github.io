@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Shaodi YOU - Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Helvetica">
+
+<style type="text/css">
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE3 {font-size: 24px}
+.STYLE4 {font-family: Arial, Helvetica, sans-serif}
+.STYLE5 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (Untitled-1.psd) -->
+<table width="840" height="80" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td width="20" background="../images/index_02.gif"><a href="index.html">	    </td>			</td>
+        <td width="20">&nbsp;</td>
+        <td width="760"><p class="STYLE3">&nbsp;</p>
+          <p align="center" class="STYLE3">Adherent Raindrop Detection and Removal in Video</p>
+          <p align="center">presented in <a href="http://www.pamitc.org/cvpr13/">CVPR 2013</a>, IEEE TPAMI </p>
+          <p align="center"><strong>Shaodi You</strong>, <a href="http://www.staff.science.uu.nl/~tan00109/">Robby T. Tan</a>, <a href="http://www.cvl.iis.u-tokyo.ac.jp/~rei/">Rei Kawakami</a>, Yasukiro Mukaigawa and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+          <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Downloads/ShaodiYou-PAMI.pdf">Journal paper</a> (12MB)<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Downloads/CVPR2013/ShaodiYou-CVPR2013.pdf" target="_blank">Conference paper</a> (2.5MB)<br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Downloads/CVPR2013/1663-You-sup-proof.pdf" target="_blank">Supplementary material</a> (0.9MB): Derivation of raindrop contraction imagery <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Downloads/CVPR2013/1663-You-sup-video.wmv" target="_blank">Video demo</a> (16MB)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CVPR2013_Exp.html" target="_blank">Video of experimental results</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Downloads/CVPR2013/CVPR2013_Shaodi_poster.pdf" target="_blank">Poster</a> (2.0MB)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CVPR2013_Data.html" target="_blank">Data</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CVPR2013Bib.html" target="_blank">BibTex</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p align="center"><img src="../PubImage/CVPR2013-1.png" alt=" " width="520" height="298"></p>
+          <p align="justify"><strong>Abstract</strong>: Raindrops adhered to a windscreen or window glass can 
+            significantly degrade the visibility of a scene. Detecting and 
+            removing raindrops will, therefore, benefit many computer 
+            vision applications, particularly outdoor surveillance systems and intelligent vehicle systems. In this paper, a method 
+            that automatically detects and removes adherent raindrops 
+            is introduced. The core idea is to exploit the local spatio-temporal derivatives of raindrops. First, it detects raindrops 
+            based on the motion and the intensity temporal derivatives 
+            of the input video. Second, relying on an analysis that 
+            some areas of a raindrop completely occludes the scene, 
+            yet the remaining areas occludes only partially, the method 
+            removes the two types of areas separately. For partially occluding areas, it restores them by retrieving as much as possible information of the scene, namely, by solving a blending function on the detected partially occluding areas using 
+            the temporal intensity change. For completely occluding areas, it recovers them by using a video completion technique. 
+            Experimental results using various real videos show the ef-fectiveness of the proposed method.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><strong><img src="CVPR2013Img_2.PNG" alt="CVPR2013Img_2" width="759" height="167"></strong></p>
+        <p align="justify"><strong>Challenges  in Detecting Adherent Raindrops</strong>: Identifying  adherent raindrops from images can be  problematic  due to a few reasons: Foremost,  adherent raindrops have various shapes. Unlike  opaque objects,  they are transparent, making their appearance and thus intensity values vary  depending on the environment. They  suffer from out-of-focus blur due to their  proximity to the camera.  Moreover, most raindrops generate glare.</p>
+        <p>&nbsp;</p>
+        <p align="center"><img src="CVPR2013Img_3.PNG" alt="CVPR2013Img_3" width="749" height="175"></p>
+        <p align="justify"><strong>Modeling  of Clear Raindrop</strong>: (a)  A raindrop is a contracted image of the environment. (b)  On the image plane, there is a smooth mapping ' starting  from  the raindrop into the environment. (c) The  contraction ratios from the environment  to a raindrop are significant.</p>
+        <p align="justify">&nbsp;</p>
+        <p align="center"><img src="CVPR2013Img_5.PNG" alt="CVPR2013Img_5" width="532" height="182"></p>
+        <p align="justify"><strong>Motion as Feature for Detection</strong>: A  clear,  unblurred  adherent raindrop works like  a fish-eye  lens and significantly contracts the image of a  scene. Consequently,  the motion inside raindrops is distinctively  slower  than the motion of non-raindrops.</p>
+        <p align="justify">&nbsp;</p>
+        <p align="center"><img src="CVPR2013Img_4.PNG" alt="CVPR2013Img_4" width="757" height="285"></p>
+        <p align="justify"><strong>Modeling  of Blurred Raindrop</strong>: The  appearance and model of pixels on an image plane collecting light from A:  environment, B: raindrop, C: both. (a) The light path model.  Green light: the light coming from environment point; Blue light: the light  refracted by a raindrop. (b) The raindrop plane cut  the section of model in (a) when a raindrop  is big. Green circle: the area of light collected. Blue circle: the raindrop.  : percentage  of light collected from  the raindrop. (b¡¯) A  raindrop plane cut the section when it is small. (c) The appearance of the 3  situations in (b). (c¡¯) The appearance of  the 3 situations in (b¡¯).</p>        
+        <p align="left">&nbsp;</p>
+        <p align="center"><img src="CVPR2013Img_6.PNG" alt="CVPR2013Img_6" width="533" height="181"></p>
+        <p align="justify"><strong>Intensity Change as Feature for Detection</strong>: Unlike  clear  raindrops, blurred raindrops are mixtures of rays  originated from  the points in the entire scene. Thus,  the  intensity temporal derivative of blurred raindrops is  significantly smaller  than that of non-raindrops.</p>
+        <p align="justify">&nbsp;</p>
+        <p align="center"><img src="CVPR2013Img_7.PNG" alt="CVPR2013Img_7" width="756" height="123"></p>
+        <p align="justify"><strong>Detection Workflow </strong></p>
+        <p align="justify">&nbsp;</p>
+        <p align="justify"><img src="CVPR2013Img_8.PNG" alt="CVPR2013Img_8" width="758" height="524"></p>
+        <p align="justify"><strong>Detection Results</strong></p>
+        <p align="justify">&nbsp;</p>
+        <p align="center"><img src="CVPR2013Img_9.PNG" alt="CVPR2013Img_9" width="758" height="302"></p>
+        <p align="center"><img src="CVPR2013Img_10.PNG" alt="CVPR2013Img_10" width="756" height="261"></p>
+        <p align="justify"><strong>Raindrop Removal Results </strong></p>
+        <p align="justify">&nbsp;</p>
+        </td>
+        <td width="20"><p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+        <td width="20" background="../images/index_07.gif">&nbsp;</td>
+  <>	</tr>
+	
+	<tr>
+		<td colspan="7">
+			<img src="../images/index_11.gif" width="840" height="59" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

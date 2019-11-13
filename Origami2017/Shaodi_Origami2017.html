@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Shaodi YOU - Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Helvetica">
+
+<style type="text/css">
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE3 {font-size: 24px}
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (Untitled-1.psd) -->
+<table width="840" height="80" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td width="20" background="../images/index_02.gif"><a href="index.html">	    </td>			</td>
+        <td width="20">&nbsp;</td>
+        <td width="760"><p class="STYLE3">&nbsp;</p>
+          <p align="center" class="STYLE3">Multi-view Rectification of Folded Documents</p>
+          <p align="center">Appeared in IEEE TPAMI </p>
+          <p align="center"><strong>Shaodi You</strong>,<a href="http://research.microsoft.com/en-us/people/yasumat/" target="_blank">Yasuyuki Matsushita</a>, <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAA&url=http%3A%2F%2Fresearch.microsoft.com%2Fjump%2F75451&ei=6sgGVa_zJobm8AXd-4CwDw&usg=AFQjCNE0wuiLZ7bvwl4BgzxNAyqDOyX1FQ&sig2=H-a-i_Sw3Vh-croB_8CWig" target="_blank">Sudipta Sinha</a>, Yusuke Bou and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+          <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Downloads/ShaodiYOU_Origami.pdf">Journal paper</a> (1.5MB)
+          <br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Shaodi_Origami_Sup.pdf" target="_blank">Extra results </a> (4.2MB)
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Data.zip" target="_blank">Data: Input and Groundtruth</a> (30MB) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Code for evaluation (Coming soon)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Origami2017Bib.html" target="_blank">BibTex</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p></p>
+          <p align="center"><img src="../PubImage/Origami.png" alt="Origami" width="520" height="270"></p>
+          <p align="justify"><strong>Abstract</strong>: Digitally unwrapping paper sheets is a crucial step for document scanning and accurate text recognition. This paper presents a method for automatically rectifying curved or folded paper sheets from a small number of images captured from different viewpoints. Unlike previous techniques that require either an expensive 3D scanner or over-simplified parametric representation of the deformations, our method only uses a few images and is based on general developable surface model that can represent diverse sets of deformation of paper sheets. By exploiting the geometric property of developable surfaces, we develop a robust rectification method based on ridge-aware 3D reconstruction of the paper sheet and L1 conformal mapping. We evaluate the proposed technique quantitatively and qualitatively using a wide variety of input documents, such as receipts, book pages and letters. </p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="Origami2017_Img01.png" alt="Ruler" width="740" height="388"></p>
+          <p align="justify"><strong>Developable surfaces with underlying rulers</strong> (lines with zero Gaussian curvature) and fold lines (ridges) shown as dotted and solids lines respectively. Examples of (a) smooth parallel rulers, (b) smooth rulers not parallel to each other and (c) rulers and ridges in arbitrary directions.</p>
+          <p>&nbsp;</p>
+          <p align="center"><img src="Origami2017_Img02.png" alt="Reconstruction" width="560" height="550"></p>
+          <p align="justify"><strong>Ridge-aware 3D surface reconstruction</strong>:  we extend the Poisson surface reconstruction method by incorporating ridge constraints and by adding robustness to outliers. </p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="Origami2017_Img03.png" alt="RVisual" width="560" height="550"></p>
+          <p align="justify"><strong>Rectification results from combination of methods</strong>. Acronyms RA and Po denote our ridge-aware method and Poisson reconstruction respectively. L1 denotes our $\ell_1$ conformal mapping method with non-local constraints; L2 indicates LSCM~\cite{Brown07} and Geo indicates geodesic unwrapping~\cite{Zhang08}. Po + L2 produced gross failures and is thus not compared.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="Origami2017_Img04.png" alt="Visual" width="760" height="684"></p>
+          <p align="left"><strong>Our results</strong>: Original images are shown in rows 1 and 3 and our rectification results are shown in rows 2 and 4</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="Origami2017_Img05.png" alt="RGlobal" width="760" height="304"></p>
+          <p align="center"><strong>Global distortion evaluation metric</strong>:  Abbreviations are consistent with the text.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="center"><img src="Origami2017_Img06.png" alt="RLocal" width="760" height="481"></p>
+          <p align="center"><strong>Local distortion evaluation metric</strong>: Abbreviations are consistent with the text.</p>
+          <p align="justify"></p>
+          <p align="center"><img src="Origami2017_Img07.png" alt="SGlobal" width="760" height="152"></p>
+          <p><img src="Origami2017_Img08.png" alt="SLocal" width="760" height="502"></p>
+          <p align="justify"><strong>Comparison of the global distortion metric</strong>: between our method (top) and Zhang~\etal~\cite{Zhang08} and Brown~\etal\cite{Brown07} with varying point density and noise. Here lower values indicate higher accuracy. (b) Frequency distribution of local distortion metrics for the associated experiments. Our method is more accurate when input point are sparser or have more noise.</p>
+          <p align="justify">&nbsp;</p>
+          <p align="justify">&nbsp;</p>
+          <p align="justify">&nbsp;</p>
+          <p align="justify">&nbsp;</p>
+        </td>
+        <td width="20"><p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+        <td width="20" background="../images/index_07.gif">&nbsp;</td>
+  <>	</tr>
+	
+	<tr>
+		<td colspan="7">
+			<img src="../images/index_11.gif" width="840" height="59" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

@@ -1,0 +1,328 @@
+<html>
+<head>
+<title>Shaodi YOU - Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Helvetica">
+
+<style type="text/css">
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.STYLE3 {font-size: 24px}
+.STYLE5 {	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (Untitled-1.psd) -->
+<table width="840" height="768" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td colspan="6">
+			<img src="../images/index_01.gif" width="840" height="195" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="4" width="20" background="../images/index_02.gif">&nbsp;</td>
+		<td width="175" height="53" style="table-layout:fixed>
+			<a href="index.html"><a href="../index.html"><img src="../images/HomeGray.gif" alt="" width="175" height="53" border="0"></a></a></td>
+		<td rowspan="4" width="65" background="../images/index_12.gif">&nbsp;</td>
+		<td width="520" rowspan="4" valign="top"><p class="STYLE3">Physcis Based Vision </p>
+		  <p>Liquid optics is extremely challenging because it is transparent and  non-rigid. The transparency means its appearance is totally determined by its  environment. The non-rigidity means its shape is also highly dependent on the  environment. <span class="STYLE5">Specifically, my research focus on rain and water drops</span>.</p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">Adherent Raindrop Detection and Removal in Video</p>
+		  <p>presented in <a href="http://www.pamitc.org/cvpr13/">CVPR 2013</a>, IEEE TPAMI 2016 </p>
+		  <p><strong>Shaodi You</strong>, <a href="http://www.staff.science.uu.nl/~tan00109/">Robby T. Tan</a>, <a href="http://www.cvl.iis.u-tokyo.ac.jp/~rei/">Rei Kawakami</a>, <a href="http://omilab.naist.jp/~mukaigawa/" target="_blank">Yasuhiro Mukaigawa</a> and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+		  <p><img src="../PubImage/CVPR2013-1.png" width="520" height="298"></p>
+		  <p align="justify">Raindrops adhered to a windscreen or window glass can significantly 
+		    degrade the visibility of a scene. 
+		    Modeling, detecting and removing raindrops will, therefore, benefit many 
+		    computer vision applications, particularly outdoor surveillance 
+		    systems and intelligent vehicle systems.  
+		    In this paper,  a method that automatically detects and removes 
+		    adherent raindrops is introduced. 
+		    The core idea is to exploit the local spatio-temporal derivatives of 
+		    raindrops. 
+		    To accomplish the idea, we first model adherent raindrops using law of physics, and detect raindrops based on these models in combination with motion and intensity temporal derivatives of the input video. 
+		    Having detected the raindrops, we remove them and restore the images based on an analysis that some areas of raindrops 
+		    completely occludes the scene, and some other areas occlude only  
+		    partially.  
+		    For partially occluding areas, we restore them  by retrieving as 
+		    much as possible  information of the scene, namely, by solving a 
+		    blending function on the detected partially occluding areas using 
+		    the temporal intensity derivative. 
+		    For completely occluding areas, we recover them by using a video 
+		    completion technique.  
+		    Experimental results using various real videos 
+	      show the effectiveness of our method.</p>
+		  <p><a href="../Downloads/ShaodiYou-PAMI.pdf">Journal paper</a> (12.7MB)<br>
+		    <a href="../Downloads/CVPR2013/ShaodiYou-CVPR2013.pdf">Conference paper</a> (2.5MB)<br>
+              <a href="../CVPR2013/Shaodi_CVPR2013.html" target="_blank">Webpage</a><br>
+          </p>
+		  <p>&nbsp;</p>
+		  <p class="STYLE3">Waterdrop Stereo</p>
+		  <p><strong>Shaodi You</strong>, <a href="http://php-robbytan.rhcloud.com/">Robby T. Tan</a>, <a href="http://www.cvl.iis.u-tokyo.ac.jp/~rei/">Rei Kawakami</a>, <a href="http://omilab.naist.jp/~mukaigawa/" target="_blank">Yasuhiro Mukaigawa</a> and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+		  <p><img src="../PubImage/Stereo.png" alt="Stereo" width="520" height="137"></p>
+		  <p>This paper introduces depth estimation from water drops. The key idea is that a single water drop adhered to window glass is totally transparent and convex, and thus optically acts like a fisheye lens. If we have more than one water drop in a single image, then through each of them we can see the environment with different view points, similar to  stereo. To realize this idea, we need to rectify every water drop imagery to make radially distorted planar surfaces look flat. For this rectification, we consider two physical properties of water drops: (1)  A static water drop has constant volume, and its geometric convex shape is determined by the balance between the tension force and gravity. This implies that the 3D geometric shape can be obtained by minimizing  the overall potential energy, which is the sum of the tension energy and the gravitational potential energy. (2) The imagery inside a water-drop is determined by the water-drop 3D shape and total reflection at the boundary. This total reflection generates a dark band commonly observed in any adherent water drops. Hence, once the 3D shape of water drops are recovered, we can rectify the water drop images through backward raytracing. Subsequently, we can compute depth using stereo. In addition to depth estimation, we can also apply image refocusing. Experiments on real images and a quantitative evaluation show the effectiveness of our proposed method. To our best knowledge, never before have adherent water drops been used to estimate depth.</p>
+		  <p><a href="../Downloads/ShaodiYOU_Stereo.pdf" target="_blank">pdf</a> (3.5MB)</p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">Haze Visibility Enhancement: A Survey and Quantitative Benchmarking</p>
+		  <p>Yu Li, <strong>Shaodi You</strong>, Michael S. Brown and Robby T. Tan </p>
+		  <p>Appeared in CVIU 2017</p>
+		  <p class="STYLE3"><img src="../PubImage/DeHaze.png" alt="Dehaze" width="520" height="169"></p>
+		  <p>This paper provides a comprehensive survey of methods dealing with visibility enhancement of images taken in hazy or foggy scenes.  The survey begins with discussing the optical models of atmospheric scattering media and image formation. This is followed by a survey of existing methods, which are grouped to multiple image methods,  polarizing filters based methods, methods with known depth, and single-image methods. We also provide a benchmark of a number of well known single-image methods, based on a recent dataset provided by Fattal and our newly generated scattering media dataset that contains ground truth images for quantitative evaluation. To our knowledge, this is the first benchmark using numerical metrics to evaluate dehazing techniques.  This benchmark allows us to objectively compare the results of existing methods and to better identify the strengths and limitations of each method.</p>
+		  <p><a href="../Downloads/ShaodiYOU_Dehaze.pdf" target="_blank">Paper</a></p>
+		  <p>&nbsp;</p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">Photo-Realistic Simulation of Road Scene for  Data-Driven Methods in Bad Weather</p>
+		  <p>Kunming Li, Yu Li, <strong>Shaodi  You</strong> and Nick Barnes</p>
+		  <p>Oral presentation in ICCV 2017 Workshop on Physcis Based Vision meets Deep Learning </p>
+		  <p><img src="../PubImage/PBDL2017.png" alt="PBDL2017" width="520" height="344"></p>
+		  <p align="justify">Modern data-driven computer vision algorithms require a large volume, varied data for validation or evaluation. We utilize computer graphics techniques to generate a large volume foggy image dataset of road scenes with different levels of fog. We compare with other popular synthesized datasets, including data collected both from the virtual world and the real world. In addition, we benchmark recent popular dehazing methods and evaluate their performance on different datasets, which provides us an objectively comparison of their limitations and strengths. To our knowledge, this is the first foggy and hazy dataset with large volume data which can be helpful for computer vision research in the autonomous driving.</p>
+		  <p align="justify"><a href="../Downloads/ShaodiYOU_PBDL2017.pdf" target="_blank">pdf</a> (6.7MB)<br>
+	      Webpage</p>
+		  <p align="justify">&nbsp;</p>
+		  <p align="left" class="STYLE3">Stereo Super-resolution via a Deep Convolutional 
+	      Network</p>
+		  <p>Appeared in The International Conference on Digital Image Computing: Techniques and  Applications, DICTA 2017</p>
+		  <p>Junxuan Li, <strong>Shaodi You</strong> and Antonio Robles-Kelly </p>
+		  <p><img src="../PubImage/DICTA2017_3.png" alt="DICTA2017_3" width="520" height="263"></p>
+		  <p align="justify">We present a method for stereo superresolution 
+		    which employs a deep network. The network is trained 
+		    using the residual image so as to obtain a high resolution 
+		    image from two, low resolution views. Our network is comprised 
+		    by two deep sub-nets which share, at their output, a single 
+		    convolutional layer. This last layer in the network delivers an 
+		    estimate of the residual image which is then used, in combination 
+		    with the left input frame of the stereo pair, to compute the 
+		    super-resolved image at output. Each of these sub-networks is 
+		    comprised by ten weight layers and, hence, allows our network to 
+		    combine structural information in the image across image regions 
+		    efficiently. Moreover, by learning the residual image, the network 
+		    copes better with vanishing gradients and its devoid of gradient 
+		    clipping operations. We illustrate the utility of our network for 
+		    image-pair super-resolution and compare our network to its 
+		    non-gradient trained analogue and alternatives elsewhere in the 
+	      literature.</p>
+		  <p align="justify"><a href="../Downloads/JunxuanLI_DICTA2017.pdf" target="_blank">Paper</a> (7.4MB) <br>
+	      </p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">Raindrop Detection and Removal from Long Range Trajectory.</p>
+		  <p>Oral presentation in ACCV 2014</p>
+		  <p><strong>Shaodi You</strong>, <a href="http://php-robbytan.rhcloud.com/">Robby T. Tan</a>, <a href="http://www.cvl.iis.u-tokyo.ac.jp/~rei/">Rei Kawakami</a>, <a href="http://omilab.naist.jp/~mukaigawa/" target="_blank">Yasuhiro Mukaigawa</a> and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+		  <p class="STYLE3"><img src="../PubImage/ACCV2014.png" width="520" height="312"></p>
+		  <p align="justify">In rainy scenes, visibility can be degraded by raindrops which have adhered to the windscreen or camera lens. In order to resolve this degradation, we propose a method that automatically detects and removes adherent raindrops.  The idea is to use long range trajectories to discover the motion and appearance features of raindrops locally along the trajectories. These motion and appearance features are obtained through our analysis of the trajectory behavior when encountering raindrops. These features are then transformed into a labeling problem, which the cost function can be optimized efficiently. Having detected raindrops, the removal is achieved by utilizing patches indicated, enabling the motion consistency to be preserved. Our trajectory based video completion method not only removes the raindrops but also complete the motion field, which benefits motion estimation algorithms to possibly work in rainy scenes. Experimental results on real videos show the effectiveness of the proposed method. </p>
+		  <p><a href="../ACCV2014/shaodi_accv14.pdf" target="_blank">pdf</a>(3.0MB) <br>
+		    <a href="../ACCV2014/Shaodi_ACCV2014.html">Webpage</a>		  </p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">Identifying  Surface BRDF from a Single 4D Light Field Image via Deep Neural Network</p>
+		  <p>Appeared in IEEE Journal on Selected Topics in Signal Processing</p>
+		  <p>Feng  Lu, Lei He, <b>Shaodi You</b>, Zhixiang Hao </p>
+		  <p><img src="../PubImage/BRDFNN.PNG" alt="BRDFNN" width="520" height="192"></p>
+		  <p align="justify">Bidirectional reflectance distribution function (BRDF) defines how light is reflected at a surface patch to produce the surface appearance, and thus modeling/recognizing BRDFs is of great importance for various tasks in computer vision and graphics. However, such tasks are usually ill-posed or require heavy labor on image capture from different viewing angles. In this paper, we focus on the problem of remote BRDF type identification, by delivering novel techniques that capture and use a single light field image. The key is that a light field image captures both the spatial and angular information by a single shot, and the angular information enables effective samplings of the 4D BRDF. To implement the idea, we propose convolutional neural network (CNN) based architectures for BRDF identification from a single 4D light field image. Specifically, a StackNet and an Ang-convNet are introduced. The StackNet stacks the angular 
+		    information of the light field images in an independent dimension, 
+		    whereas the Ang-convNet uses angular filters to encode the 
+		    angular information. In addition, we propose a large light field 
+		    BRDF dataset containing 47650 high quality 4D light field image 
+		    patches, with different 3D shapes, BRDFs and illuminations. 
+		    Experimental results show significant accuracy improvement in 
+	      BRDF identification by using the proposed methods.</p>
+		  <p><a href="../Downloads/ShaodiYou_BRDF_CNN.pdf" target="_blank">pdf</a> (4.8Mb) </p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3"><span class="STYLE3">Robust and Fast Motion Estimation for Video Completion.</span></p>
+		  <p>Oral presentation in <a href="http://www.mva-org.jp/mva2013/">IAPR MVA  2013</a></p>
+		  <p><strong>Shaodi You</strong>, <a href="http://www.staff.science.uu.nl/~tan00109/">Robby T. Tan</a>, <a href="http://www.cvl.iis.u-tokyo.ac.jp/~rei/">Rei Kawakami</a> and <a href="http://www.cvl.iis.u-tokyo.ac.jp/~ki/">Katsushi Ikeuchi</a></p>
+		  <p><img src="../PubImage/MVA2013.png" width="520" height="280"></p>
+		  <p align="justify">A motion estimation method for completing a video 
+		    with large and consecutive damage is introduced. It 
+		    is principally based on sparse matching and interpolation. First, SIFT, which is robust to arbitrary motion,<br>
+		    is used to efficiently obtain sparse correspondences in 
+		    neighboring frames. To ensure these correspondences 
+		    are uniformly distributed across the image, a fast dense 
+		    point sampling method is applied. Then, a dense motion field is generated by interpolating the correspondences. An efficient weighted explicit polynomial fitting 
+		    method is proposed to achieve spatially and temporally 
+		    coherent interpolation. In the experiment, quantitative 
+		    measurements were conducted to show the robustness 
+	      and effectiveness of the proposed method.</p>
+		  <p><a href="../Downloads/ShaodiYou-MVA2013.pdf">Paper</a> (0.9MB)<br>
+		    Video demo<br>
+		  Slides
+		  <br>
+Bibtex</p>
+		  <p class="STYLE3">&nbsp;</p>
+		  <p class="STYLE3">&nbsp;</p>
+	  </td>
+		<td rowspan="4">
+			<img src="../images/index_06.gif" width="40" height="514" alt=""></td>
+		<td rowspan="4" width="20" background="../images/index_07.gif">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="175" height="53" style="table-layout:fixed>
+			<a href="Html/CV.html"><p><a href="CV.html"><img src="../images/CVGray.gif" alt="" width="175" height="53" border="0"></a><a href="Research.html"><img src="../images/ResearchBK.gif" width="175" height="53" border="0"></a></a></p>	    </td>
+	</tr>
+	<tr>
+		<td width="175" height="53">
+			<a href="Publication.html"></a><a href="Artworks.html"><img src="../images/ArtGray.gif" alt="Artworks" width="175" height="54" border="0"></a></td>
+	</tr>
+	<tr>
+		<td><p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td colspan="6">
+			<img src="../images/index_11.gif" width="840" height="59" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>
